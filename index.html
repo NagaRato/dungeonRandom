@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			Dungeon Random
+		</title>
+		<script src="room.js"></script>
+		<script src="app.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h3>Dungeon Random</h3>
+		<div id="display"></div>
+		<table id='controlsMoving'>
+			<tr>
+				<td></td>
+				<td><button onclick="dungeon.moveTo('north')">Noord</button></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><button onclick="dungeon.moveTo('west')">West</button></td>
+				<td><button onclick="dungeon.doors();">Kijk</button></td>
+				<td><button onclick="dungeon.moveTo('east')">Oost</button></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button onclick="dungeon.moveTo('south')">Zuid</button></td>
+				<td></td>
+			</tr>
+		</table>
+		<table id='controlsStart'>
+			<tr>
+				<td><button onclick="dungeon.init()">Start</button></td>
+			</tr>
+
+		</table>
+	</body>
+</html>

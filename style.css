@@ -1,0 +1,11 @@
+#controlsMoving {
+	display: none;
+}
+#controlsStart {
+	display: block;
+}
+#display {
+	height: 400px;
+	width: 600px;
+	border: 2px solid black;
+}
